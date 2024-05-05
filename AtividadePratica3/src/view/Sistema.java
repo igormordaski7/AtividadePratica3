@@ -136,7 +136,7 @@ public class Sistema {
                 Funcionario funcEncontrado = CadastroFuncionario.buscarFuncionario(matricula, termoBusca);
 
                 if (funcEncontrado != null) {
-                    System.out.println("\nFuncionario encontrado com sucesso:");
+                    System.out.println("\nFuncionario encontrado com sucesso!");
                 } else {
                     System.out.println("\nFuncionario não encontrado!");
                 }
